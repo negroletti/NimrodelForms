@@ -8,7 +8,7 @@ Para clonar el repositorio, sigue los siguientes pasos:
 2. Navega hasta el directorio donde deseas clonar el repositorio.
 3. Ejecuta el siguiente comando:
 ```
-git clone https://github.com/negroletti/Nimrodel.git
+git clone https://github.com/negroletti/NimrodelForms.git
 ```
 
 ## Abrir la página web
