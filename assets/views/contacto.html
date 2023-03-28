@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <title>Reservas</title>
+  </head>
+  <header>
+    <a href="../../index.html">
+      <img src="../img/n.png" alt="logo" style="max-width: 100px" />
+    </a>
+  </header>
+  <body>
+    <h1>Comuniquemonos</h1>
+    <form method="post">
+      <div>
+        <label for="nombre">Nombre</label><br />
+        <input type="text" name="nombre" id="nombre" required />
+      </div>
+      <div>
+        <label for="email">Email</label> <br />
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <label for="telefono">Telefono</label> <br />
+        <input type="number" name="telefono" id="telefono" required />
+      </div>
+      <div>
+        <label for="mensaje">Mensaje</label> <br />
+        <textarea
+          name="mensaje"
+          id="mensaje"
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+      </div>
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
